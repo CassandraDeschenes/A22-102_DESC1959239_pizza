@@ -1,0 +1,46 @@
+.page
+    {
+        background-color: rgb(238, 200, 147);
+    }
+.titre
+    {
+        text-align: center;
+        text-decoration-line: underline;
+    }
+.choixIngredients
+    {
+        display:flex;
+        justify-content:center;
+    }
+.categorie
+    {
+        margin-left:5%;
+    }
+.containerIngredients
+    {
+    display:flex;
+    justify-content:center;
+    
+    }
+.nomPizza 
+    {
+        display:flex;
+        justify-content:center;
+        margin:5%;
+    }
+.texte
+    {
+        text-align: center;
+        margin-top:20%;
+        margin-bottom:-10%;
+    }
+
+.ingredients
+    {
+      position: absolute;
+    }
+.nom
+    {
+        position:center;
+    }
+    
