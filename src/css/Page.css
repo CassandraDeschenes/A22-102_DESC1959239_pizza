@@ -1,5 +1,5 @@
 .page-content {
-    display: flex;
+    /* display: flex; */
     height: calc(100vh - 64px);
     justify-content: center;
     background-color: black;
