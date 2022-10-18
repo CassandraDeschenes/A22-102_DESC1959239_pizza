@@ -1,10 +1,11 @@
 import './css/Pizza.css';
 
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 const Creer = () => {
 
     //Déclaration des states propres à chaque ingrédient + le state permettant de nomer la pizza
-    const [nomPizza, setnomPizza] = useState('"Nom de la pizza"');
+    const [nomPizza, setnomPizza] = useState('');
     const [basePizza, setbasePizza] = useState(true);
     const [pepperoni, setPepperoni] = useState(false);
     const [jambon, setJambon] = useState(false);
@@ -55,6 +56,12 @@ const Creer = () => {
         }
     }
 
+    const navigate = useNavigate();
+    // ...
+    const clickHandler = () => {
+        navigate('/listePizza');
+    };
+
     
 	       
     return (
@@ -67,7 +74,7 @@ const Creer = () => {
                     <div>
                         <label htmlFor="basePizza">Base:</label>
                         {/* Blocage de l'image de base de la pizza */}
-                        <input type="checkbox" name="basePizza" id="basePizza" checked></input> 
+                        <input type="checkbox" name="basePizza" id="basePizza" checked readOnly></input> 
                     </div>
                 </fieldset>
 
@@ -144,9 +151,9 @@ const Creer = () => {
             {/* Récupération de l'information du nom de la pizza + bouton permettant l'affichage de la pizza personnalisée dans la  console */}
             <div className="nomPizza">
                 <div className="champEnregistrer">
-                    <label htmlFor="nomPizza">Nom de la pizza</label>
-                    <input type="text" name="nomPizza" id="nomPizza" value={nomPizza} onChange={(e) => setnomPizza(e.target.value)} ></input>
-                    <button type="submit" onClick={(event) => HandleSubmit(event)} disabled={Verifier()}>Enregistrer</button>
+                    <label htmlFor="nomPizza">Nom de la pizza : </label>
+                    <input type="text" name="nomPizza" id="nomPizza" value={nomPizza} onChange={(e) => setnomPizza(e.target.value)} placeholder="Entrez le nom de la pizza" ></input>
+                    <button type="submit" onClick={(event) => {HandleSubmit(event); alert('La pizza a été enregistrée dans la console!'); clickHandler()}} disabled={Verifier()}>Enregistrer</button>
                     <div className="texte">
                         <h1>{nomPizza}</h1>
                     </div>
