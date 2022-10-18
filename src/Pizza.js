@@ -58,7 +58,6 @@ const Creer = () => {
     }
 
     const navigate = useNavigate();
-    // ...
     const clickHandler = () => {
         navigate('/listePizza');
     };
@@ -161,7 +160,7 @@ const Creer = () => {
                     <div className="champEnregistrer">
                         <label htmlFor="nomPizza">Nom de la pizza : </label>
                         <input type="text" name="nomPizza" id="nomPizza" value={nomPizza} onChange={(e) => setnomPizza(e.target.value)} placeholder="Entrez le nom de la pizza" ></input>
-                        <button type="submit" onClick={(event) => { HandleSubmit(event); alert('La pizza a été enregistrée dans la console!'); clickHandler() }} disabled={Verifier()}>Enregistrer</button>
+                        <button type="submit" onClick={(event) => { HandleSubmit(event); alert('La pizza a été enregistrée dans la console!'); clickHandler() }} disabled={Verifier()} className="pizzaButton">Enregistrer</button>
                         <div className="texte">
                             <h1>{nomPizza}</h1>
                         </div>

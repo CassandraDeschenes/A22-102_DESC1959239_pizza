@@ -44,4 +44,9 @@
     {
         position:center;
     }
+
+.pizzaButton{
+    display:inline;
+    width: 5rem;
+}
     

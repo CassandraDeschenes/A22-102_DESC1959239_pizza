@@ -6,6 +6,7 @@ import Panier from "./components/Panier";
 import './css/Commande.css';
 import data from "./data";
 
+
 const Commande = () => {
     const [itemsPanier, setItemsPanier] = useState([]);
     const {produits} = data;

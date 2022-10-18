@@ -43,7 +43,7 @@ export default function Panier(props) {
                             </div>
                             <hr/>
                             <div className="row">
-                                <button onClick={()=>alert('Commande effectuée avec succès!')}>
+                                <button onClick={()=> {alert('Commande effectuée avec succès!'); console.log(itemsPanier);}}>
                                     Commander
                                 </button>
                             </div>
@@ -52,6 +52,9 @@ export default function Panier(props) {
                     )}
                 </div>
             </h2>
+        <div>
+            <h3>Liste des commandes</h3>
+        </div>
         </aside>
     );
 }
