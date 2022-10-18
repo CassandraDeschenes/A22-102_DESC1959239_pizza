@@ -1,7 +1,25 @@
 .page-content {
+    display: flex;
     height: calc(100vh - 64px);
     justify-content: center;
-    align-items: center;
     background-color: black;
     color:white;
+  }
+
+  .accueil{
+    background-image: url('../images/pizza-g766491ead_1280.jpg');
+    width:70rem;
+    height: 50rem;
+    margin:0;
+    display: flex;
+}
+.accueil h1{
+    font-size: 4rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding: 12rem 15rem;
+}
+.accueil h2{
+      font-size: 1.5rem;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
   }

@@ -1,11 +1,11 @@
-.page
+/* .page
     {
         background-color:black;
     }
 .titre
     {
         text-align: center;
-        text-decoration-line:none;
+        text-decoration-line: underline;
     }
 .choixIngredients
     {
@@ -38,10 +38,9 @@
 .ingredients
     {
       position: absolute;
-      
     }
 .nom
     {
         position:center;
     }
-    
+     */
