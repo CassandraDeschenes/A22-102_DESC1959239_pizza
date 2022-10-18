@@ -91,6 +91,7 @@ function Login() {
     <div className="app">
       <div className="login-form">
         <div className="title">Connection</div>
+        <div className="title">Identifiant: usager1  Mot de passe:pass1</div>
         {isSubmitted ? <div class="title" onClick={clickHandler}>La connexion s'est déroulée avec succès!</div> : renderForm}
       </div>
     </div>
