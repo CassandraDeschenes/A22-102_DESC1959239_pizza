@@ -43,3 +43,55 @@
     transition: 1s;
     text-decoration: overline;
 }
+nav{
+    justify-content: space-evenly;;
+}
+
+nav a{
+    margin-left: 6%;
+    margin-right: 10%;
+    margin-top: 2%;
+    color:white;
+}
+nav a:hover{
+    margin-left: 6%;
+    margin-right: 10%;
+    color:rgb(145, 149, 16);
+    transition: .3s;
+}
+
+.iconePanier{
+    height: 1.5rem;
+}
+.iconePanier:hover{
+   background-color:rgb(145, 149, 16);
+    height: 1.5rem;
+}
+
+.cache{
+    display: none;
+    z-index: 10;
+}
+.visible{
+    display:flex;
+    position:absolute;
+}
+
+.iconePanier:hover + .cache{
+    color: white;
+    display:flex;
+    position:absolute;
+    /* margin-top:2vh; */
+}
+
+.h2Panier{
+    text-decoration: underline;
+}
+
+.p-panier{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+

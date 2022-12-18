@@ -1,0 +1,90 @@
+
+.pageDetails{
+    display:flex;
+    justify-content: center;
+    
+    /* position:absolute; */
+    /* justify-content:center; */
+    /* margin-top:10vh; */
+    /* margin-left:60vw; */
+}
+
+.infosPizza{
+    display:flex;
+    justify-content: center;
+    /* width: 40vw; */
+}
+
+.nomDePizza{
+    display:flex;
+    position:absolute;
+    /* justify-content:center; */
+    text-transform: capitalize;
+}
+
+.baseDetailsPizza{
+    width: 24vw;
+    /* display:flex;
+    position:absolute; */
+    margin-top: 8vh;
+    margin-left: -5vw;
+    margin-right: 20vw;
+    margin-bottom: 1vh;
+}
+
+.listeIngrePizza{
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+    justify-content: center;
+    /* margin-left: vw; */
+    margin-top:-7.5vh;
+    width: 10vw;
+}
+
+.ingreBtn{
+    display: flex;
+    justify-content:center;
+    margin-left: -35%;
+    margin-top: 20%;
+}
+
+.nomIngredients{
+    display: flex;
+    margin-bottom:1.1vh;
+    margin-left: -2vw;
+    justify-content:center;
+}
+
+.imageIngrePizza{
+    /* width:40%;
+    display:flex;
+    position:absolute;
+    margin-top: -27.3vh;
+    margin-left: 2vw; */
+    width: 25vw;
+    margin-left: -5.6vw;
+    display:flex;
+    position:absolute;
+    margin-top: -49.9%;
+}
+
+
+.totalDePizza{
+    display: flex;
+    position:absolute;
+    justify-content: center;
+}
+
+.boutonAjouter{
+    justify-content:center;
+    height: 5%;
+    width: 8vw;
+    margin-top: 37.8%;
+    position:absolute;
+    /* margin-left: 53%; */
+}
+
+.btnAjouter{
+    height: 3vh;
+}

@@ -1,3 +1,4 @@
+//Notice rouge lorsqu'un item se trouve dans le panier
 export default function Header(props) {
     const {compteItemsPanier} = props;
     return(

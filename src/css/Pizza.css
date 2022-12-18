@@ -1,52 +1,137 @@
-.page
-    {
-        background-color:black;
-    }
-.titre
-    {
-        text-align: center;
-        text-decoration-line:none;
-    }
-.choixIngredients
-    {
-        display:flex;
-        justify-content:center;
-    }
-.categorie
-    {
-        margin-left:5%;
-    }
-.containerIngredients
-    {
-    display:flex;
-    justify-content:center;
-    
-    }
-.nomPizza 
-    {
-        display:flex;
-        justify-content:center;
-        margin:5%;
-    }
-.texte
-    {
-        text-align: center;
-        margin-top:20%;
-        margin-bottom:-10%;
-    }
-
-.ingredients
-    {
-      position: absolute;
-      
-    }
-.nom
-    {
-        position:center;
-    }
-
-.pizzaButton{
-    display:inline;
-    width: 5rem;
+.page {
+    background-color: black;
+    /* display:flex; */
 }
+
+
+.titre {
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.basePizza {
+    position: absolute;
+    width: 27vw;
+    margin-left: 16vw;
+    margin-top: 3vh;
+}
+
+.listeIngredients {
+    position:absolute;
+    margin-left: 20vw;
+    margin-top: 11vh;
+}
+
+
+.choixIngredients {
+    display: flex;
+    justify-content: center;
+}
+
+.pate{
+    margin-left: 1.3vw;
+}
+
+.casesIngredients {
+    display: grid;
+}
+
+
+.divTitre {
+    display: flex;
+    position: absolute;
+    margin-left: 45%;
+
+}
+
+.nomPizza {
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    margin-left: 72vw;
+    margin-top: 11vh;
     
+}
+.nomPizzaRender{
+    display:flex;
+    position:absolute;
+    margin-top: 10vh;
+    margin-left:36.5vw;
+    width: 10vw;
+    
+}
+.nomRendered{
+    margin: 0;
+    width:25vw;
+    height: 3vh;
+    text-align: center;;
+
+}
+.nomRenderer{
+    width: 10vw;
+
+}
+.nom{
+    display:flex;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+
+.prixPizza{
+    /* display:flex; */
+    justify-content: center;
+    margin: 3%;
+}
+
+.texte {
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: -10%;
+}
+
+.ingredients {
+    position: absolute;
+    display:flex;
+    width: 27vw;
+    margin-left:-36.7vw;
+    margin-top: -12vh;
+
+}
+
+.nom {
+    position: center;
+}
+
+.pizzaButtonActive {
+    padding: .3rem;
+    border: .1rem #404040 solid;
+    background-color: #a2a349;
+    color:black;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.pizzaButtonDesactive{
+    background-color:#545525;
+    color: black;
+}
+.pizzaButtonDesactive:hover{
+    background-color:#545525;
+    color: black;
+    cursor: not-allowed;
+    padding: .3rem;
+    border: .1rem #404040 solid;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.hide{
+    display:none;
+}
+.pizzaButtonDesactive:hover + .hide{
+    color: rgb(162, 54, 54);
+    display:flex;
+    position:absolute;
+    margin-top:2vh;
+}

@@ -1,0 +1,58 @@
+
+
+.sidecart {
+    height: 100vh;
+    position: fixed;
+    top: 78px;
+    right: 0px;
+    z-index: 9000;
+
+}
+    .products-list {
+        width: 280px;
+        height: 600px;
+        overflow-y: scroll;
+    }
+
+    h4 {
+        font-size: 14px;
+        color: black;
+    }
+
+    h3 {
+        font-size: 15px;
+        font-family: 'Rufina', serif;
+    }
+
+    .flexCart {
+        display: flex;
+        gap: 1em;
+        justify-content: space-between;
+
+    }
+
+    .cartes {
+        height: 0px;
+    }
+
+    .cart {
+        padding: 1em 1em;
+        /* // background-color: #cecece; */
+        margin-bottom: 1em;
+    }
+
+    .btn-remove {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .btnCart {
+        padding: 0 .1em;
+        margin: 0 .1em;
+    }
+
+.imgCart .cartes img {
+    width: 35px;
+    left: 4px;
+    top: 3px;
+}

@@ -1,0 +1,95 @@
+
+
+.detailsPizza{
+    display:flex;
+    position:absolute;
+    width: 50vw;
+    margin-left:140vw;
+    margin-top:10vh;
+    justify-content:center;
+
+}
+
+.bt{
+    display:flex;
+    justify-content: center;
+}
+.nomPage{
+    display:flex;
+    position:absolute;
+    justify-content:center;
+    width:50%;
+    margin-left:100vw;
+}
+.listePizzas{
+    width: 30%;
+    display:flex;
+    flex-flow: wrap;
+    height: 25%;
+    position:absolute;
+    justify-content:center;
+    margin-left: 65%;
+    margin-top: 10vh;
+}
+.imageBasePizza{
+    width: 12vh;
+    margin-top:1vh;
+    /* margin-left: .2vw; */
+}
+.imagePizza{
+    width: 12vh;
+    display:flex;
+    position:absolute;
+    margin-top: -12.3vh;
+    /* margin-left: 0vw; */
+}
+
+
+.boutonAjouterPanier{
+    height: 3vh;
+}
+
+.tuilePizza{
+    margin: 2%;
+    display:flex;
+    justify-content:center;
+}
+
+.nomPage{
+    display:flex;
+    position:absolute;
+}
+
+.lienPizza{
+    color: white;
+    /* margin-left: 1.7vw; */
+    justify-content: center;
+    transition: .3s;
+    text-transform: capitalize;
+}
+
+.nomLienPizza{
+    display:flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.lienPizza:hover{
+    color: #a2a349;
+    margin-left: 1.7vw;
+    transition: .3s;
+}
+
+.prixPizza{
+    display:flex;
+}
+
+.infosSupp{
+    display:flex;
+    position:absolute;
+    margin-left:130vw;
+    text-align: center;
+    width: 9vw;
+    font-size: 1.5rem;
+    margin-top: 30vh;
+}

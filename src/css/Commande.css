@@ -2,6 +2,17 @@
     box-sizing:border-box;
 }
 
+/* .page-content{
+    display:flex;
+    justify-content: center;
+} */
+.page-panier{
+    /* display:flex; */
+    position:absolute;
+    justify-content:center;
+    margin-left: 19%;
+}
+
 a{
     text-decoration: none;
 }
@@ -57,7 +68,7 @@ button.badge{
     border-radius: 0.5rem;
 }
 .card{
-    background-color: rgb(106, 136, 108);
+    /* background-color: rgb(106, 136, 108); */
     padding: 1rem;
     margin: 0.5rem;
     border-radius: 1rem;
@@ -90,8 +101,8 @@ button.badge{
 }
 
 .block{
-    background-color: rgb(199, 215, 200);
-    color: black;
+    /* background-color: rgb(199, 215, 200); */
+    color: white;
     padding:1rem;
     margin:.5rem;
     border-radius: 1rem;
